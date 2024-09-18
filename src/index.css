@@ -1,0 +1,145 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin-left: 10%;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+nav {
+  display: flex;
+  padding: 30px;
+  gap: 20px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin-left: 25%;
+  font-size: 25px;
+}
+
+
+.main {
+  margin: 0 auto;
+  width: 800px;
+}
+.list {
+  text-align: center;
+  margin-bottom: 40px;
+}
+li {
+  margin-bottom: 5%;
+  font-size: 18px;
+  list-style: none;
+}
+li button a {
+  color: white;
+}
+.delete {
+  background-color: rgb(255, 16, 16);
+  color: white;
+}
+.edit {
+  background-color: blue;
+}
+.add {
+  text-align: center;
+}
+label {
+  margin-left: 32%;
+  font-size: 20px;
+}
+.first {
+  margin-left: 10%;
+}
+.second {
+  margin-left: 6.1%;
+}
+.third {
+  margin-left: 12.5%;
+}
+.fourth {
+  margin-left: 9.7%;
+}
+input {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 6px;
+}
+.first-block, .second-block, .third-block, .fourth-block {
+  margin-bottom: 10px;
+}
+.submit {
+  margin-left: 42%;
+  background-color: blue;
+  color: white;
+  margin-top: 10px;
+}
+.change {
+  margin-left: 40%;
+  background-color: rgb(255, 247, 0);
+  color: black;
+  margin-top: 10px;
+}
+.edit-title {
+  text-align: center;
+}
+.error {
+  color: red;
+}
